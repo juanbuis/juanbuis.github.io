@@ -2,7 +2,7 @@
 
 if( !is_uploaded_file($_FILES['inputfile']['tmp_name']) ) 
 {
-    header("Location: index.php");
+    header("Location: index.html");
     exit();
 }
 
